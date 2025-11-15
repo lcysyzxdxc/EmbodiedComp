@@ -1,2 +1,2 @@
-# EmbodiedComp
-Embodied Image Compression
+# Embodied Image Compression
+Image Compression for Embodied AI manipulation
