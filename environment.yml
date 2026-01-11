@@ -13,7 +13,7 @@ dependencies:
       - accelerate
       - diffusers
       - peft
-      - timm==1.0.0
+      - timm==0.9.12
       - mujoco==3.3.4
       - robosuite==1.5.1
       - gym==0.25.2
