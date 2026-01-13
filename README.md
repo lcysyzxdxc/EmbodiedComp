@@ -28,13 +28,28 @@ Yuan Tian, Xiangyang Zhu, Zicheng Zhang, Xiaohong Liu, Weisi Lin, Guangtao Zhai
 EmbodiedComp is a closed-loop benchmark frame for VLA(Vision-Language-Action) model.We use robosuite to build a environment with random texture and objects for an UR5 robotic arm with Pi0-FAST,Pi0.5 and OpenVLA-oft.
 To align with Real-world applications of Embodied AI, we deploy the compression algorithm within the Embodied Inference pipeline for the first time, enabling closed-loop validation. Since compression distortion accumulates in each loop-iterations, evaluation metrics include both Success Rate (SR) and the Step for iterations to represent efficiency.
 
+<div align="center">
+
+🤗 [Datasets Download]() | 📚 [Paper](https://arxiv.org/abs/2512.11612) | 📈[Benchmark]()
+
+</div>
+
+## Release
+- [2026/1/14]   [GoogleDrive dataset](https-link) for **EmbodiedComp** is upgrade.
+- [2026/1/10] 🔥 [Github repo](https-link) for **EmbodiedComp** is online.
+- [To Do] [ ] Real-world data.
+
 # Installing
 Prepare environment
 ```bash
-git clone ...
+git clone https://github.com/Jianbo-maker/EmbodiedComp.git
 cd EmbodiedComp
-conda env create
+# conda env create
+conda env create -n Ecomp
+# activate conda
 conda activate Ecomp
+# install lib
+pip install -r requirements.txt
 ```
 Install openpi-client:
 ```
@@ -65,3 +80,19 @@ You can change code listed below to replace with your own compress codec:
 - [pi](pi.py#L60) and [openvla](openvla.py#L137)'s function `build_obs_ur5` transfer image from camera to agent, you can modify our extract the image.
 
 - [COMPRESSIMG](compress/compressimg.py#L367) collects many useful codec, you can add your own codec class in this file with function `compress`, then announce your class in `codecmap`
+
+## Citation
+
+If you find our work interesting, please feel free to cite our paper:
+
+```bibtex
+@misc{li2025embodiedimagecompression,
+      title={Embodied Image Compression}, 
+      author={Chunyi Li and Rui Qing and Jianbo Zhang and Yuan Tian and Xiangyang Zhu and Zicheng Zhang and Xiaohong Liu and Weisi Lin and Guangtao Zhai},
+      year={2025},
+      eprint={2512.11612},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.11612}, 
+}
+```
