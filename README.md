@@ -9,7 +9,7 @@
 
  <h1>Embodied Image Compression
 
- The first embodied image compression benchmark
+ _The_first_embodied_image_compression_benchmark
  
  <div>
       <a href="https://lcysyzxdxc.github.io" target="_blank">Chunyi Li</a><sup>1</sup><sup>2</sup><sup>3</sup><sup>*</sup>,
