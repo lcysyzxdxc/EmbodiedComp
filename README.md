@@ -1,23 +1,30 @@
 <div align="center">
 
+ <div>
+  <a href="https://github.com/aiben-ch/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Faiben-ch%2FEmbodiedComp&count_bg=%23E97EBA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a>
+  <a href="https://github.com/aiben-ch/EmbodiedComp"><img src="https://img.shields.io/github/stars/aiben-ch/EmbodiedComp"/></a>
+  <a href="https://arxiv.org/pdf/2512.11612"><img src="https://img.shields.io/badge/Arxiv-2512.11612-blue"/></a>
+  <a href="https://huggingface.co/datasets/lcysyzxdxc/CMC-Bench"><img src="https://img.shields.io/badge/Data-Release-green"></a>
+ </div>
+
  <h1>Embodied Image Compression
 
  The first embodied image compression benchmark
-Yuan Tian, Xiangyang Zhu, Zicheng Zhang, Xiaohong Liu, Weisi Lin, Guangtao Zhai
+ 
  <div>
       <a href="https://lcysyzxdxc.github.io" target="_blank">Chunyi Li</a><sup>1</sup><sup>2</sup><sup>3</sup><sup>*</sup>,
       <a href="" target="_blank">Rui Qing</a><sup>1</sup><sup>*</sup>,
       <a href="https://scholar.google.com/citations?hl=en&user=Eru2-TYAAAAJ" target="_blank">Jianbo Zhang</a><sup>1</sup>,
-      <a href="" target="_blank">Yuan Tian</a><sup>2</sup>,
-      <a href="" target="_blank">Xiangyang Zhu</a><sup>2</sup>,
-      <a href="" target="_blank">Zicheng Zhang</a><sup>1</sup><sup>2</sup>,
-      <a href="" target="_blank">Xiaohong Liu</a><sup>1</sup>,
-      <a href="" target="_blank">Weisi Lin</a><sup>3</sup>,
-      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>1</sup><sup>2</sup>,
+      <a href="https://scholar.google.com/citations?user=Kzd0qtsAAAAJ&hl=en" target="_blank">Yuan Tian</a><sup>2</sup>,
+      <a href="https://scholar.google.com/citations?hl=en&user=k7YfbnEAAAAJ" target="_blank">Xiangyang Zhu</a><sup>2</sup>,
+      <a href="https://zzc-1998.github.io" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>2</sup>,
+      <a href="https://jhc.sjtu.edu.cn/~xiaohongliu/" target="_blank">Xiaohong Liu</a><sup>1</sup>,
+      <a href="https://personal.ntu.edu.sg/wslin/Home.html" target="_blank">Weisi Lin</a><sup>3</sup>,
+      <a href="https://icisee.sjtu.edu.cn/jiaoshiml/zhaiguangtao.html" target="_blank">Guangtao Zhai</a><sup>1</sup><sup>2</sup>,
  </div>
 
  <div>
-  <sup>1</sup>Shanghai Jiaotong University,  <sup>2</sup>Shanghai AI Lab,  <sup>3</sup>Nanyang Technological University.  <sup>*</sup>contributed equally to this work.
+  <sup>1</sup>Shanghai Jiao Tong University,  <sup>2</sup>Shanghai AI Lab,  <sup>3</sup>Nanyang Technological University.
  </div> 
  
  <div style="width: 100%; text-align: center; margin:auto;">
