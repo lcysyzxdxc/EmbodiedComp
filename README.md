@@ -7,9 +7,9 @@
   <a href="https://huggingface.co/datasets/lcysyzxdxc/CMC-Bench"><img src="https://img.shields.io/badge/Data-Release-green"></a>
  </div>
 
- <h1>Embodied Image Compression
+ <h1>Embodied Image Compression</h1>
 
- _The_first_embodied_image_compression_benchmark
+ _The first image compression benchmark for Embodeid AI_
  
  <div>
       <a href="https://lcysyzxdxc.github.io" target="_blank">Chunyi Li</a><sup>1</sup><sup>2</sup><sup>3</sup><sup>*</sup>,
@@ -32,7 +32,7 @@
  </div>
 </div>
 
-EmbodiedComp is a closed-loop benchmark frame for VLA(Vision-Language-Action) model.We use robosuite to build a environment with random texture and objects for an UR5 robotic arm with Pi0-FAST,Pi0.5 and OpenVLA-oft.
+EmbodiedComp is a closed-loop benchmark frame for VLA (Vision-Language-Action) models. We use Robosuite to build an environment with random textures and objects for an UR5 robotic arm with Pi0-FAST, Pi0.5, and OpenVLA-oft.
 To align with Real-world applications of Embodied AI, we deploy the compression algorithm within the Embodied Inference pipeline for the first time, enabling closed-loop validation. Since compression distortion accumulates in each loop-iterations, evaluation metrics include both Success Rate (SR) and the Step for iterations to represent efficiency.
 
 <div align="center">
